@@ -15,7 +15,8 @@ int main()
   
   cout << "\nStart: " << cpuTime() << endl;
   
-  sort(accountBalances, accountBalances+2010);
+  sort(accountBalances, accountBalances+maxAccounts);
+  reverse(accountBalances,accountBalances+maxAccounts);
   printArray(accountBalances, maxAccounts);
   cout << "\nEnd: " << cpuTime() << endl;
 
