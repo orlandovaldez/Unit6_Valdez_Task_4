@@ -1,0 +1,4 @@
+Time For Run 1: 0.018009 seconds
+Time For Run 2: 0.023841 seconds
+Time For Run 3: 0.022383 seconds
+Average Time for Bubble Sort ASC: 0.021411 seconds
